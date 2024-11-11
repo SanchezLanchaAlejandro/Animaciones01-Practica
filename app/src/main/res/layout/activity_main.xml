@@ -23,7 +23,10 @@
             android:id="@+id/textViewBienv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="monospace"
             android:text="@string/bienvenida"
             android:textAlignment="center"
             android:textColor="@color/azul_oscuro"
@@ -38,14 +41,16 @@
             android:text="@string/pulsar"
             android:textAlignment="center"
             android:textColor="@color/material_dynamic_tertiary70"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/botonAnimacion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="275dp"
-            android:text="@string/boton" />
+            android:layout_marginRight="50dp"
+            android:text="@string/boton1" />
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ring">
+
+    <!-- Animación de los cuatro colores del anillo -->
+    <target
+        android:name="rojo_claro1"
+        android:animation="@animator/animator_rojo_a_azul_claro" />
+    <target
+        android:name="rojo_oscuro1"
+        android:animation="@animator/animator_rojo_a_azul_oscuro" />
+    <target
+        android:name="rojo_claro2"
+        android:animation="@animator/animator_rojo_a_azul_claro" />
+    <target
+        android:name="rojo_oscuro2"
+        android:animation="@animator/animator_rojo_a_azul_oscuro" />
+</animated-vector>

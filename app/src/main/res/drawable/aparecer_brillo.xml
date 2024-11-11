@@ -1,0 +1,8 @@
+<!-- Animación que intercala entre un brillo visible y invisible -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    android:duration="500">
+
+    <item android:drawable="@drawable/brillo_visible" android:duration="500"/>
+    <item android:drawable="@drawable/brillo_invisible" android:duration="500"/>
+</animation-list>

@@ -2,5 +2,6 @@
     <string name="app_name">Animaciones</string>
     <string name="bienvenida">Bienvenido a la App de Animaciones</string>
     <string name="pulsar">Presione el boton para ver la animacion</string>
-    <string name="boton">Animación</string>
+    <string name="boton1">Ir a Animación</string>
+    <string name="boton2">¡Anímalo!</string>
 </resources>

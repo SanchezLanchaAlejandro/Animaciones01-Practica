@@ -1,3 +1,4 @@
+<!-- Imagen del anillo con colores predeterminados en Rojos -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="800dp"
     android:height="800dp"
@@ -7,15 +8,19 @@
       android:pathData="M18,12c-6.627,0 -12,5.373 -12,12s5.373,12 12,12s12,-5.373 12,-12s-5.373,-12 -12,-12zM18,32a8,8 0,1 1,0 -16a8,8 0,0 1,0 16z"
       android:fillColor="#9AAAB4"/>
   <path
+      android:name="rojo_oscuro1"
       android:pathData="M29,5l-4,-5H11L7,5l11,9z"
       android:fillColor="@color/rojo_oscuro"/>
   <path
+      android:name="rojo_claro1"
       android:pathData="M29,5l-4,-5H11L7,5h11z"
       android:fillColor="@color/rojo_claro"/>
   <path
+      android:name="rojo_oscuro2"
       android:pathData="M29,5l-4,-5h-7v5h1z"
       android:fillColor="@color/rojo_oscuro"/>
   <path
+      android:name="rojo_claro2"
       android:pathData="M18,5h11l-11,9z"
       android:fillColor="@color/rojo_claro"/>
   <path
